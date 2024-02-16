@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "nish-app-czr-2"
+  description: "This is a sample gRPC SpringBoot App to showcase Scaffolder in Backstage"
+  annotations:
+    github.com/project-slug: NishkarshRaj/nish-app-czr2
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/data"
